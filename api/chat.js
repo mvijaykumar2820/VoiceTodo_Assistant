@@ -1,10 +1,9 @@
-import OpenAI from "openai";
+const OpenAI = require("openai").default;
 
 const apiKey = process.env.GROQ_API_KEY || process.env.OPENAI_API_KEY;
 const client = new OpenAI({ apiKey, baseURL: "https://api.groq.com/openai/v1" });
 
-export default async function handler(req, res) {
-    // CORS headers
+module.exports = async function handler(req, res) {
     res.setHeader('Access-Control-Allow-Origin', '*');
     res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
     res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
