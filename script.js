@@ -230,7 +230,7 @@ async function sendToAI(message) {
     try {
         status.textContent = "Thinking...";
 
-        const response = await fetch('/chat', {
+        const response = await fetch('/api/chat', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
