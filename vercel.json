@@ -2,38 +2,20 @@
     "version": 2,
     "builds": [
         {
-            "src": "*.html",
+            "src": "index.html",
             "use": "@vercel/static"
         },
         {
-            "src": "*.css",
+            "src": "style.css",
             "use": "@vercel/static"
         },
         {
-            "src": "*.js",
+            "src": "script.js",
             "use": "@vercel/static"
         },
         {
-            "src": "api/**/*.js",
+            "src": "api/chat.js",
             "use": "@vercel/node"
-        }
-    ],
-    "routes": [
-        {
-            "src": "/api/(.*)",
-            "dest": "/api/$1"
-        },
-        {
-            "src": "/style.css",
-            "dest": "/style.css"
-        },
-        {
-            "src": "/script.js",
-            "dest": "/script.js"
-        },
-        {
-            "src": "/(.*)",
-            "dest": "/index.html"
         }
     ]
 }
