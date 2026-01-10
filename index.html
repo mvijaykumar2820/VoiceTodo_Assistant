@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Voice Todo</title>
+</head>
+
+<body>
+    <div class="status" id="status">Press the voice button to start</div>
+
+    <div class="todo-container" id="todoContainer">
+        <div class="empty-state">No todos yet. Speak to add one.</div>
+    </div>
+
+    <div class="mic-container">
+        <input type="checkbox" id="input-voice" class="input-voice" style="display:none" />
+        <label for="input-voice" class="label-voice">
+            <svg class="icon-voice" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2"
+                    d="M12 4v16m4-13v10M8 7v10m12-6v2M4 11v2"></path>
+            </svg>
+            <div class="ai">
+                <div class="container">
+                    <div class="c c4"></div>
+                    <div class="c c1"></div>
+                    <div class="c c2"></div>
+                    <div class="c c3"></div>
+                    <div class="rings"></div>
+                </div>
+                <div class="glass"></div>
+            </div>
+            <div class="text-voice">
+                <p>Listening...</p>
+                <p>Click to stop</p>
+            </div>
+        </label>
+    </div>
+
+    <script src="script.js" type="module"></script>
+</body>
+
+</html>

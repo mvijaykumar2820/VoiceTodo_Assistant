@@ -1,0 +1,10 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.2.1",
+    "openai": "^4.8.0"
+  }
+}
