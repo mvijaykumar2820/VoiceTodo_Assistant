@@ -61,7 +61,7 @@ node server.js
 
 6. Open http://localhost:3000 in your browser
 
-## 🎨 UI Features
+## UI Features
 
 - **Animated Microphone Button**: Expands into a beautiful orb with rotating gradients when listening
 - **3D Ring Effects**: Dynamic rotating rings with colorful gradients
@@ -69,7 +69,7 @@ node server.js
 - **Glass Morphism**: Modern frosted glass effects
 - **Smooth Transitions**: Buttery smooth CSS animations
 
-## 🌐 Deployment
+## Deployment
 
 ### Deploy to Vercel
 
@@ -78,7 +78,7 @@ node server.js
 3. Add `GROQ_API_KEY` environment variable
 4. Deploy!
 
-## 🔒 Environment Variables
+## Environment Variables
 
 | Variable | Description | Required |
 |----------|-------------|----------|
@@ -95,4 +95,4 @@ MIT License - feel free to use this project for learning or personal use.
 
 ---
 
-⭐ Star this repo if you found it helpful!
+Star this repo if you found it helpful!
