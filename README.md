@@ -1,27 +1,27 @@
-# Voice Todo Assistant 🎤
+# Voice Todo Assistant
 
 A modern, voice-controlled todo list application with a stunning animated UI. Built with vanilla JavaScript and powered by AI for natural language processing.
 
 ![Voice Todo Assistant](https://img.shields.io/badge/Status-Ready-success)
 ![License](https://img.shields.io/badge/License-MIT-blue)
 
-## ✨ Features
+## Features
 
-- 🎙️ **Voice Commands**: Add, complete, and remove todos using natural speech
-- 🎨 **Beautiful Animations**: Stunning 3D animated microphone button with gradient effects
-- 🤖 **AI-Powered**: Uses GROQ API for intelligent command parsing
-- 💾 **Local Storage**: Your todos persist across sessions
-- 🌙 **Dark Theme**: Easy on the eyes with a sleek black design
-- 📱 **Responsive**: Works on desktop and mobile devices
+-  **Voice Commands**: Add, complete, and remove todos using natural speech
+-  **Beautiful Animations**: Stunning 3D animated microphone button with gradient effects
+-  **AI-Powered**: Uses GROQ API for intelligent command parsing
+-  **Local Storage**: Your todos persist across sessions
+-  **Dark Theme**: Easy on the eyes with a sleek black design
+-  **Responsive**: Works on desktop and mobile devices
 
-## 🎯 Voice Commands
+##  Voice Commands
 
 - **Add todos**: "Add buy groceries to my list"
 - **Complete todos**: "Mark buy groceries as done"
 - **Remove todos**: "Delete buy groceries"
 - **List todos**: "What's on my list?"
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend**: HTML5, CSS3, Vanilla JavaScript
 - **Backend**: Node.js, Express
@@ -29,7 +29,7 @@ A modern, voice-controlled todo list application with a stunning animated UI. Bu
 - **Speech**: Web Speech API
 - **Deployment**: Vercel
 
-## 📦 Installation
+## Installation
 
 1. Clone the repository:
 ```bash
