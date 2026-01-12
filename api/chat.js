@@ -1,5 +1,6 @@
 const OpenAI = require("openai").default;
 
+//use any 1 api 
 const apiKey = process.env.GROQ_API_KEY || process.env.OPENAI_API_KEY;
 const client = new OpenAI({ apiKey, baseURL: "https://api.groq.com/openai/v1" });
 
