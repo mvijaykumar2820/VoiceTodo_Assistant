@@ -69,5 +69,4 @@ if (process.env.NODE_ENV !== 'production') {
   app.listen(port, () => console.log(`Server listening on http://localhost:${port}`));
 }
 
-// Export for Vercel serverless
 export default app;
