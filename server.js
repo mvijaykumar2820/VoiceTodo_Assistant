@@ -5,6 +5,7 @@ import rateLimit from "express-rate-limit";
 const app = express();
 const port = process.env.PORT || 3000;
 
+// you can use any 1 key
 const apiKey = process.env.GROQ_API_KEY || process.env.OPENAI_API_KEY;
 if (!apiKey) {
   console.error("Missing API key. Set GROQ_API_KEY or OPENAI_API_KEY in your environment.");
