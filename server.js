@@ -64,7 +64,7 @@ You: "You have 3 tasks pending"`
   }
 });
 
-// For local development
+
 if (process.env.NODE_ENV !== 'production') {
   app.listen(port, () => console.log(`Server listening on http://localhost:${port}`));
 }
